@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: podinfo
-  namespace: podinfo-test
 spec:
   serviceName: "podinfo"
   replicas: 3
